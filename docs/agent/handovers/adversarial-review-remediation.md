@@ -5,7 +5,7 @@
 - **Status:** active
 - **Owner:** unassigned
 - **Created:** 2026-07-24
-- **Updated:** 2026-07-24 (initial planning; no phase started)
+- **Updated:** 2026-07-24 (Phase 0 complete; Phase 1 not started)
 - **Review required:** yes — kernel semantic changes (Phases 1–3), the event-schema bump
   (Phase 4), and the version-policy CI guard (Phase 5) require exact-candidate
   adversarial review before merge, per the house rule
@@ -252,10 +252,10 @@ so the new invariant test guards those changes. Phases 7 and 8 are independent o
 and can interleave. Phase 9 runs last so the doc sweep can reference every change.
 Strict TDD throughout: watch each focused test fail for the intended reason first.
 
-### Phase 0 — housekeeping [TODO]
+### Phase 0 — housekeeping [DONE]
 
 Commit `docs/agent/handovers/tier2-oracle-next-session.md` and this document (D13).
-No code. Acceptance: `git status` clean.
+No code. Acceptance: `git status` clean. Done in commit `c26c322` (2026-07-24).
 
 ### Phase 1 — confirmed kernel/loader bugs [TODO]
 
@@ -485,7 +485,8 @@ each retired phrase ("terminal-first" in the swept files, "seeded tie-break",
 ## Current status
 
 - **Completed:** the adversarial review itself; the eight owner decisions (recorded
-  above). No remediation code exists yet.
+  above); Phase 0 (both handovers tracked, commit `c26c322`). No remediation code
+  exists yet.
 - **In progress:** nothing.
 - **Blockers:** none. Every phase can start now; no live UE5 fixture is required
   (Phase 8 is fake-transport only).
@@ -493,7 +494,7 @@ each retired phrase ("terminal-first" in the swept files, "seeded tie-break",
 
 ## Next steps
 
-Phase 0 (commit the two handovers), then Phase 1. Phase 1's five fixes are independent
+Phase 1. Phase 1's five fixes are independent
 of each other; K1 is a one-token change whose test is described above. Gotchas:
 
 - K2's freeze must not change `pack_id` hashing (`content/pack.py:252-282` hashes
