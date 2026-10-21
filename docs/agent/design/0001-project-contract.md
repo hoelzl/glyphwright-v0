@@ -14,7 +14,7 @@ does not define product scope — `0003` §2 and §18 do.
 ## Ownership, publication, and license
 
 - Local destination: `C:\Users\tc\Programming\Python\Projects\glyphwright`.
-- Remote: `hoelzl/glyphwright` on GitHub. GlyphWright is its own repository, not a workspace member under TermVerify (`0003` §20.4, resolved).
+- Remote: `hoelzl/glyphwright-v0` on GitHub. GlyphWright is its own repository, not a workspace member under TermVerify (`0003` §20.4, resolved).
 - License: Apache-2.0, matching TermVerify and permitting future documented reuse. Copyright: Matthias Hölzl, 2026.
 
 ## Runtime and verification

@@ -34,7 +34,7 @@ Verified on 2026-07-19 from Git and GitHub:
 - Only registered worktree: the primary checkout.
 - Only local/remote branch: `main` / `origin/main`.
 - Open pull requests: none.
-- Open follow-up: [issue #25](https://github.com/hoelzl/glyphwright/issues/25), now limited to floor→wall drift semantics and the start-cell self-hit rule.
+- Open follow-up: [issue #25](https://github.com/hoelzl/glyphwright-v0/issues/25), now limited to floor→wall drift semantics and the start-cell self-hit rule.
 - This handover is the sole untracked file. Do not reset, delete, or accidentally stage unrelated files if that changes.
 
 ### PR #27 transition

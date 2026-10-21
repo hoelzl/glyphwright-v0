@@ -1,5 +1,12 @@
 # GlyphWright
 
+> **Archived on 2026-10-21. This is GlyphWright v0, kept read-only as a record.**
+> Development continues in a fresh repository,
+> [hoelzl/glyphwright](https://github.com/hoelzl/glyphwright), which ports the
+> engine slice by slice, small core first. Links to `hoelzl/glyphwright` in older
+> commits and issues now lead to that new repository; this one is
+> `hoelzl/glyphwright-v0`.
+
 A deterministic, terminal-first turn-based RPG engine, drivable by people and autonomous agents alike.
 
 GlyphWright is an RPG engine in the tradition of RPG Maker and the Neverwinter Nights toolset: worlds are authored in a grid/tile or room-based format and played through characters, items and inventory, turn-based battles, stats and abilities, and embedded minigames. It separates world semantics from presentation — a state plus a command produces a new immutable state and ordered semantic events — so that structured evidence, not screen-scraped text, is the primary observation.

@@ -33,9 +33,9 @@ ue5 = ["mcp>=1.10"]
 glyphwright = "glyphwright.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/hoelzl/glyphwright"
-Repository = "https://github.com/hoelzl/glyphwright"
-Issues = "https://github.com/hoelzl/glyphwright/issues"
+Homepage = "https://github.com/hoelzl/glyphwright-v0"
+Repository = "https://github.com/hoelzl/glyphwright-v0"
+Issues = "https://github.com/hoelzl/glyphwright-v0/issues"
 
 [dependency-groups]
 dev = [
